@@ -25,6 +25,8 @@ body {
   line-height: 1.6;
 }
 
+
+
 a {
   color: hsl(65, 80%, 60%);
   text-decoration: none;
@@ -34,6 +36,8 @@ a:hover,
 a:focus {
   text-decoration: underline;
 }
+
+
 
 .page-title {
   text-align: center;
@@ -89,6 +93,11 @@ a:focus {
 
 .content > * + * {
   margin-top: 2rem;
+}
+
+
+.paragraph {
+margin-bottom: 75px
 }
 
 .image-container {
