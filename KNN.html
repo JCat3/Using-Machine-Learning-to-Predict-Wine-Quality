@@ -25,8 +25,8 @@
             <a class="dropdown-item" href="#">Decision Tree</a>
             <a class="dropdown-item" href="KNN.html">K-Nearest Neighbors</a>
             <a class="dropdown-item" href="LogisticRegression.html">Logistic Regression</a>
-            <a class="dropdown-item" href="#">Neural Network</a>
-            <a class="dropdown-item" href="#">Random Forest</a>
+            <a class="dropdown-item" href="neural_network.html">Neural Network</a>
+            <a class="dropdown-item" href="random_forest.html">Random Forest</a>
             <a class="dropdown-item" href="#">Support Vector Machine</a>
           </div>
         </li>
@@ -44,23 +44,30 @@
     <figure class="image-container"><img src="static/images/vineyard.jpg" alt=""/></figure>
     <article class="content">
       <h2 class="section-title">K-Nearest Neighbors</h2>
+      <p>K-Nearest Neighbors (KNN) classifies values based on proximity, calculating the distance between points and 
+          assuming similar values are closer together. To find the best vale of K for the model, we tested a range
+          of values and selected the lowest point where the score starts to stabalize. 
+    <br>
+    <p> The red wine test accuracy score reached .583 at its highest. White wine reached .548 accuracy 
+        before stabilizing. The algorithm is slowed down by the multiple qualifiers in the data set, leading to 
+        lower accuracy scores </p>
+        </p>
+        <br>
       <p>Red Wine KNN Plot</p>
       <img src="Red Wine KNN plot.jpg" alt=" Red Wine KNN plot image">
       <p>The above graph shows the K-Nearest Neighbors plot for the red wine data. We can see the plot start to
           even out around k=31 with a training score of .601 and testing score of .583. This model accurately predicts 
         the quality of red wine about 58% of the time, making this an unreliable model. </p>
-      <p>Red Wine Confusion Matrix</p>
-      <img src="Red Wine KNN Matrix.jpg" alt=" Red Wine KNN Matrix image">
-      <p>Explanation</p>
-      <br>
       <p>White Wine KNN Plot</p>
       <img src="White Wine KNN plot.jpg" alt=" White Wine KNN plot image">
       <p>The above graph shows the K-Nearest Neighbors plot for the whitewine data. We can see the plot start to
         even out around k=46 with a training score of .581 and testing score of .548. This model accurately predicts 
       the quality of red wine about 55% of the time, making this an unreliable model. </p>
+      <br>
+      <p>Red Wine Confusion Matrix</p>
+      <img src="Red Wine KNN Matrix.jpg" alt=" Red Wine KNN Matrix image">
       <p>White Wine Confusion Matrix</p>
       <img src="White Wine KNN Matrix.jpg" alt=" White Wine KNN Matrix image">
-      <p>Explanation</p>
 
     </article>
   </section>
