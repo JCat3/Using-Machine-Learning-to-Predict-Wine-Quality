@@ -22,7 +22,7 @@
           Models
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Decision Tree</a>
+          <a class="dropdown-item" href="decision_tree.html">Decision Tree</a>
           <a class="dropdown-item" href="KNN.html">K-Nearest Neighbors</a>
           <a class="dropdown-item" href="LogisticRegression.html">Logistic Regression</a>
           <a class="dropdown-item" href="neural_network.html">Neural Network</a>
@@ -53,10 +53,7 @@
     <article class="content">
       <h2 class="section-title">The data.</h2>
       
-      <p>The datasets we used include chemical property measures commonly used to characterize wine as well as quality scores used for wine certification purposes. The data include measures on samples of vinho verde wine (wine from the northwest region of Portugal). 
-        Because the properties and taste of red and white wine differ, separate datasets were used for red and white wine samples. The red wine dataset included 1599 samples and the white wine dataset included 4898 samples.</p> 
-      <p>Each quality score was the median of at least three scores graded by wine experts who graded each wine sample in a blind taste test on a range from 0 (very bad) to 10 (excellent). 
-        For both the red and white wines most quality scores were given a 5 or 6. Below is a histogram of the quality scores. About 82% of the red wine samples and about 75% of the white wine samples had a quality score of 5 or 6.</p>
+      <p>The datasets we used include chemical property measures commonly used to characterize wine as well as quality scores used for wine certification purposes. The data include measures on samples of vinho verde wine (wine from the northwest region of Portugal). Because the properties and taste of red and white wine differ, separate datasets were used for red and white wine samples. Each quality score was the median of at least three scores graded by wine experts who graded each wine sample in a blind taste test on a range from 0 (very bad) to 10 (excellent). For both the red and white wines most quality scores were given a 5 or 6. Below is a histogram of the quality scores. </p>
 
       <div class='tableauPlaceholder' id='viz1644883231211' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='WineQualityscores&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1644883231211');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
@@ -84,7 +81,16 @@
     <article class="content">
       <h2 class="section-title">The models.</h2>
       
-      <p>The models used were... After comparing the accuracy scores of the models, it was found that the XXXXX model had the highest accuracy.</p>
+      <p>The models are examples of supervised learning and were used for multiple classification with the goal of accurately finding the quality 
+        score of red and white wine. Each model compared a training and testing set to see how accurate the 
+        prediction was. The algorithims run until the model achieves a level of accuracy. 
+      </p>
+      <p>After comparing the accuracy scores of the models, it was found that the Random Forest model 
+        had the highest accuracy. The model is able to adjust different modifiers to determine which factor 
+        best predicts the wine quality. The random forest algorithm is able to build smaller and simpler 
+        decision trees, this helps to break down the data and create multiple "weak classifiers" that combine
+        to form a "strong classifier."
+      </p>
       
       <table>
         <tr>
