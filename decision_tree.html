@@ -9,6 +9,32 @@
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <a class="navbar-brand" href="index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Models
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="decision_tree.html">Decision Tree</a>
+          <a class="dropdown-item" href="KNN.html">K-Nearest Neighbors</a>
+          <a class="dropdown-item" href="LogisticRegression.html">Logistic Regression</a>
+          <a class="dropdown-item" href="neural_network.html">Neural Network</a>
+          <a class="dropdown-item" href="random_forest.html">Random Forest</a>
+          <a class="dropdown-item" href="svm.html">Support Vector Machine</a>
+        </div>
+      </li>
+    </ul>
+  
+  </div>
+</nav>
+
 <main class="main">
   <section class="section">
     <figure class="image-container"><img src="static/images/vineyard.jpg" alt=""/></figure>
@@ -16,7 +42,7 @@
       <h2 class="section-title">The Decision Tree Model</h2><span class="byline"></a></span>
       <p>was used to determine the possible quality of the red and white wines by continously splitting their different properties' results into nodes until classified. </p>
       <p>This model was intended to be easy to visualize but there were too many properties of the wines to have clear visualizations as seen below. </p>
-      <p>The decision trees did not generalize the data well & was not the most accurate in determining quality for red or white wines. </p>
+      <p>The decision trees did not generalize the data well & was not the most accurate in determining quality for red or white wines. The test on red wine had an accuracy score of 0.598 and the test on white wine had an accuracy score of 0.596.</p>
     </article>
   </section>
 
@@ -27,16 +53,15 @@
       <p>Red Wine Decision Tree</p>
       <img src="model_figures/red_decision_tree.jpg" alt="Red Wine Decision Tree" width="650" height="500">
 
-      <p>Red Wine Confusion Matrix</p>
-      <img src="model_figures/red_decision_tree_matrix.jpg" alt="Red Wine Confusion Matrix" width="650" height="500">
-      <p>info</p>
-
       <p>White Wine Decision Tree</p>
       <img src="model_figures/white_decision_tree.jpg" alt="White Wine Decision Tree" width="650" height="500">
 
+      <p>Red Wine Confusion Matrix</p>
+      <img src="model_figures/red_decision_tree_matrix.jpg" alt="Red Wine Confusion Matrix" width="650" height="500">
+
       <p>White Wine Confusion Matrix</p>
       <img src="model_figures/white_decision_tree_matrix.jpg" alt="White Wine Confusion Matrix" width="650" height="500">
-      <p>info</p>
+      
           
     </article>
   </section>
