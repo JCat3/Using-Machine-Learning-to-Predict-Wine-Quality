@@ -9,6 +9,33 @@
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <a class="navbar-brand" href="index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Models
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="decision_tree.html">Decision Tree</a>
+          <a class="dropdown-item" href="KNN.html">K-Nearest Neighbors</a>
+          <a class="dropdown-item" href="LogisticRegression.html">Logistic Regression</a>
+          <a class="dropdown-item" href="neural_network.html">Neural Network</a>
+          <a class="dropdown-item" href="random_forest.html">Random Forest</a>
+          <a class="dropdown-item" href="SVM.html">Support Vector Machine</a>
+        </div>
+      </li>
+    </ul>
+  
+  </div>
+</nav>
+
+
 
 <main class="main">
   <section class="section">
@@ -20,9 +47,9 @@
         Looking at the confusion matrices below, we see that the while the models don’t predict the exact quality category with a high degree of accuracy, they do still provide useful insights given that when they predict incorrectly, it’s rarely off by more than one.
         </p>
       <h3>Red Wine Confusion Matrix</h3>
-      <img src="model_figures/red_neural_network_confusion.jpg" alt="red_confusion_matrix"/>
+      <img src="static/images/red_neural_network_confusion.jpg" alt="red_confusion_matrix"/>
       <h3>White Wine Confusion Matrix</h3>
-      <img src="model_figures/white_neural_network_confusion.jpg" alt="red_confusion_matrix"/>
+      <img src="static/images/white_neural_network_confusion.jpg" alt="red_confusion_matrix"/>
     </article>
   </section>
 
