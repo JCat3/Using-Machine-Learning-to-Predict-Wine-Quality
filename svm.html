@@ -22,12 +22,12 @@
             Models
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Decision Tree</a>
+            <a class="dropdown-item" href="decision_tree.html">Decision Tree</a>
             <a class="dropdown-item" href="KNN.html">K-Nearest Neighbors</a>
             <a class="dropdown-item" href="LogisticRegression.html">Logistic Regression</a>
             <a class="dropdown-item" href="neural_network.html">Neural Network</a>
             <a class="dropdown-item" href="random_forest.html">Random Forest</a>
-            <a class="dropdown-item" href="svm.html">Support Vector Machine</a>
+            <a class="dropdown-item" href="SVM.html">Support Vector Machine</a>
           </div>
         </li>
       </ul>
@@ -47,17 +47,17 @@
               After quality scores of 5 and 6, wine samples with a quality score of 7 was the third most frequent score. 
               Despite this, the SVM model was not able to correctly predict any wines with a quality score of 7. Moreover, the SVM model was not able to distinguish higher quality wines (i.e. wines with quality scores of 7, 8, or 9) and thus predicted those wines to have lower quality scores (5 or 6).  </p>
 
-      <img src="model_figures/SVM_conf_matrix_red.jpg" alt="SVM confusion matrix red wine">
+      <img src="static/images/SVM_conf_matrix_red.jpg" alt="SVM confusion matrix red wine">
       <p>Confusion matrix for the SVM model on red wine data</p>
-      <img src="model_figures/SVM_conf_matrix_white.jpg" alt="SVM confusion matrix white wine">
+      <img src="static/images/SVM_conf_matrix_white.jpg" alt="SVM confusion matrix white wine">
       <p>Confusion matrix for the SVM model on white wine data</p>
 
       <p>After training the linear SVM model on the data it was important to explore what main features, in this case, what chemical properties were used by the model to classify the quality scores. 
           This was done by obtaining the coefficients of the classifiers using <code class="vy vz wa wb vh b">.coef_</code> on the SVM model. As seen in the plots below, volatile acidity was the most important feature in classifying the red wine data. Total sulfur dioxide and alcohol content were the next two imortant features. 
           Fixed acidity and pH level were the features with the smallest coefficients. </p>
-      <img src="model_figures/SVM_ftr_weight_red.jpg" alt="Coefficient weights red wine">
+      <img src="static/images/SVM_ftr_weight_red.jpg" alt="Coefficient weights red wine">
       <p>For the white wine data, the most important feature was free sulfur dioxide followed by alcohol content and fixed acidity. Density and chlorides had the smallest coefficients and had little importance in classifying the data.</p>
-      <img src="model_figures/SVM_ftr_weight_white.jpg" alt="Coefficient weights white wine">
+      <img src="static/images/SVM_ftr_weight_white.jpg" alt="Coefficient weights white wine">
       <p></p>
     </article>
   </section>
