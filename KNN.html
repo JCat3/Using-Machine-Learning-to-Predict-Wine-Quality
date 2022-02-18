@@ -45,8 +45,8 @@
     <article class="content">
       <h2 class="section-title">K-Nearest Neighbors</h2>
       <p>K-Nearest Neighbors (KNN) classifies values based on proximity, calculating the distance between points and 
-          assuming similar values are closer together. To find the best vale of K for the model, we tested a range
-          of values and selected the lowest point where the score starts to stabalize. 
+          assuming similar values are closer together. To find the best value of K for the model, we tested a range
+          of values and selected the lowest point where the score starts to stabilize. 
     <br>
     <p> The red wine test accuracy score reached .583 at its highest. White wine reached .548 accuracy 
         before stabilizing. The algorithm is slowed down by the multiple qualifiers in the data set, leading to 
@@ -62,8 +62,11 @@
       <img src="static/images/White_Wine_KNN_plot.jpg" alt=" White Wine KNN plot image">
       <p>The above graph shows the K-Nearest Neighbors plot for the whitewine data. We can see the plot start to
         even out around k=46 with a training score of .581 and testing score of .548. This model accurately predicts 
-      the quality of red wine about 55% of the time, making this an unreliable model. </p>
+      the quality of white wine about 55% of the time, making this an unreliable model. </p>
       <br>
+      <p>The confusion matrix shows how many times the model accurately predicts the quality score of each wine. The 
+        majority of the quality scores for both red and white wine were 5 and 6. The predicted quality on the x-Axis shows the value the model 
+      predicted and the y-axis shows the correct value.</p>
       <p>Red Wine Confusion Matrix</p>
       <img src="static/images/Red_Wine_KNN_Matrix.jpg" alt=" Red Wine KNN Matrix image">
       <p>White Wine Confusion Matrix</p>
@@ -73,6 +76,8 @@
   </section>
 
 </main>
+<footer class="footer">Saúde.</footer>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
