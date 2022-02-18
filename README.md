@@ -4,7 +4,6 @@ Please clone this repository to your desktop and then do the following:
 
 1. Select the repo folder name ``Using-Machine-Learning-to-Predict-Wine-Quality``
 1. Right click and select ``git bash here``
-1. Type ``source activate PythonData38`` and then hit `ENTER`.
 1. Type ``jupyter notebook`` and then hit `ENTER`
 1. Notice a jupyter notebook opens with files for each model
 1. Select ``DecisionTreeModelFixed.ipynb`` to view the decision tree model
