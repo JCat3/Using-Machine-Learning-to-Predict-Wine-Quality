@@ -39,7 +39,7 @@ A version of the website without the Prediction model can also be viewed on Gith
 1. Select the drop down bar labeled ``Models``
 1. Notice a list of all models on the website. Select one to be taken to that models page
 
-Team Members:
+Team Members:  
 Kirsteen Lugtu - https://github.com/kirsteenlugtu  
 Julia Catalano - https://github.com/JCat3  
 Grace Zafar - https://github.com/gzafar  
