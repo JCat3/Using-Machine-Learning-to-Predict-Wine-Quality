@@ -1,6 +1,6 @@
 # Using-Machine-Learning-to-Predict-Wine-Quality
 
-The goal of this project was to find and optimize the best machine learning algorithim to predict human wine taste preferences based on measureable, easily attained chemical properties of wine. Several models were developed using python in Jupyter notebooks. Machine learning techniques such as these could be employed to help in the wine-making process and/or marketing process for target consumers.
+The goal of this project was to find and optimize the best machine learning algorithm to predict human wine taste preferences based on measurable, easily attained chemical properties of wine. Several models were developed using python in Jupyter notebooks. Machine learning techniques such as these could be employed to help in the wine-making process and/or marketing process for target consumers.
 
 
 The project website is hosted on Heroku. To view it please do the following:
